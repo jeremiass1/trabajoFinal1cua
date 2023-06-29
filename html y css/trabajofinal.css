@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,p,ul,ol{
+   margin: 0;
+}
+.wraperr{color: transparent;
+    
+}
+.textologo{
+    justify-items: start;
+    margin: 25px;
+}
+.logo{
+    height:120px ;
+    width: 100px;
+}
+
+.tiposlista{
+    margin:22px;
+    list-style-type: none;
+    background-color: transparent;
+     display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.botonMenu{
+    
+}
