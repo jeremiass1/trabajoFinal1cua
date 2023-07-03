@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenescarrucel/fondo\ nuevo.png);
+
+}
+
+.contenedorprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Agdasima', sans-serif;
+
+}
+
+.contenedor-formulario {
+    margin: 20px;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    gap: 25px;
+    background-color: rgba(168, 82, 186, 0.967);
+    border-radius: 15px;
+    border: solid;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.carrucelimagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.titulo {
+    font-weight: solid;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-family: 'Agdasima', sans-serif;
+
+}
+
+.carousel {
+    margin: 35px;
+    margin-top: -15px;
+    padding: 5pxpx;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(248, 248, 248);
+    opacity: .8;
+    transition: .5s ease;
+    cursor: context-menu;
+}
+
+.carousel:hover {
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.nombre {
+    width: 400px;
+}
+
+.apellido {
+    width: 400px;
+}
+
+.email {
+
+    width: 400px;
+}
+
+.locasion {
+    width: 400px;
+}
+
+.telefono {
+    width: 400px;
+}
+
+
+.edad {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-botones {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.botones {
+    width: 150px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    border: solid;
+    border-color: transparent;
+}
+
+.botones:hover {
+    border-radius: 15px;
+    background-color: rgba(168, 82, 186, 0.967);
+    border-color: white;
+}

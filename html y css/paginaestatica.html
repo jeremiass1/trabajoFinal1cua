@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo mensual</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="paginaestatica.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedorprincipal">
+        <div>
+            <form class="contenedor-formulario">
+                <div class="titulo">
+                    <h2>Sorteo mensual de kini 8</h2>
+                </div>
+
+                <div class="carrucelimagenes">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenescarrucel/auto.jpg" class="d-block w-100" alt="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenescarrucel/plata (2).jpg" class="d-block w-100" alt="casa">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenescarrucel/casa.jpg" class="d-block w-100" alt="plata">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="nombre">
+                    <input type="text" id="nombre" class="nombre" placeholder="Ingrese su Nombre">
+                </div>
+                <div class="apellido">
+                    <input type="text" id="apellido" class="apellido" placeholder="Ingrese su Apellido">
+                </div>
+                <input type="email" id="email" class="email" placeholder="IngreseSuEmail@email.com" autocomplete="off">
+
+                <div class="locasion">
+                    <div class="input-group mb-3">
+                        <label class="input-group-text">Locasion
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Selecsione donde Vive</option>
+                                <option value="Olavarria">Olavarria</option>
+                                <option value="Azul">Azul</option>
+                                <option value="LaPrida">LaPrida</option>
+                                <option value="Sierra Chica">Sierra Chica</option>
+                                <option value="Hinojo">Hinojo</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="telefono">
+                    <input type="text" class="telefono" id="telefono" placeholder="Ingrese su telefono">
+                    <small>Ej: 0123-56-7890</small>
+                </div>
+                <div class="edad">
+                    <input type="number" id="tentacles" name="tentacles" min="18" max="100">
+                    <small>Seleccione su edad</small>
+                </div>
+                <div class="contenedor-botones">
+                    <div>
+                        <button class="botones" id="botonborrar">Borrar</button>
+                    </div>
+                    <div>
+                        <button class="botones" id="botonenviar" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="paginaestatica.js"></script>
+</body>
+
+</html>
